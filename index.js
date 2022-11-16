@@ -13,7 +13,7 @@ app.get('/profile', (req, res) => {
     })
 })
 
-app.post('/ejemplo', (req, res) => {
+app.post('/empresas', (req, res) => {
     res.json([
         'Google', 
         'Amazon',
@@ -21,7 +21,7 @@ app.post('/ejemplo', (req, res) => {
     ])
 })
 
-app.patch('/ejemplo', (req, res) => {
+app.patch('/hobbies', (req, res) => {
     res.json([
         'Escuchar Musica', 
         'Ver Peliculas',
