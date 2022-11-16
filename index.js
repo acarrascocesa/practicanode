@@ -5,7 +5,6 @@ const port = 9000
 const app = express()
 
 app.get('/profile', (req, res) => {
-    // req contiene la informacion del cliente
     res.json({
         name: 'Angel Carrasco',
         age: 34,
@@ -29,7 +28,6 @@ app.patch('/hobbies', (req, res) => {
     ])
 })
 
-// Este listen va estar hasta abajo de nuestro app.js
 app.listen(port, () => {
     console.log(`Server started at port ${port}`)
 })
